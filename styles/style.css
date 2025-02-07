@@ -5,10 +5,52 @@
 * {
   margin: 0;
   padding: 0;
-  text-align: center;
-  font-family: "Merriweather", serif;
 }
 
 .body {
-  border: 2px solid red;
+  font-family: "Merriweather", serif;
+  border: 5px solid red;
+}
+
+/* ----------Banner section styles---------- */
+.banner-container {
+  border: 10px solid rgb(255, 0, 221);
+  max-width: 1320px;
+  min-height: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-image: url(../assets/images/banner.png);
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: overlay;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-content p {
+  border: 2px solid rgb(0, 204, 255);
+  font-size: 32px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  opacity: 85%;
+}
+
+.banner-content h1 {
+  border: 2px solid rgb(0, 255, 21);
+  font-size: 72px;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+  opacity: 90%;
+}
+
+.banner-content h1 span {
+  display: block;
+  text-align: center;
 }
