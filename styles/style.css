@@ -3,6 +3,12 @@
 /* font-family: "Merriweather", serif; */
 
 * {
+  margin: 0;
+  padding: 0;
   text-align: center;
   font-family: "Merriweather", serif;
+}
+
+.body {
+  border: 2px solid red;
 }
