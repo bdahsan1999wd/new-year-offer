@@ -105,11 +105,81 @@
 
 /* -----discount image container styles----- */
 .discount-image-container {
-  width: 805px;
-  height: 500px;
+  max-width: 805px;
+  min-height: 500px;
 }
 
 .discount-image-container img {
   width: 100%;
   height: 100%;
+}
+
+/* ----------party section styles---------- */
+.party-container {
+  border: 10px solid red;
+  max-width: 1320px;
+  min-height: 600px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  display: flex;
+}
+
+/* -----left side content styles----- */
+.left-side-content {
+  border: 5px solid rgb(0, 247, 255);
+  width: 60%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left-side-content h1 {
+  border: 5px solid rgb(241, 108, 12);
+  font-size: 64px;
+  font-weight: 900;
+  margin-left: 126px;
+  color: rgb(255, 255, 255, 0.9);
+}
+.left-side-content p {
+  border: 5px solid rgb(66, 218, 6);
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 126px;
+  margin-top: 24px;
+  margin-bottom: 48px;
+  color: rgb(255, 255, 255, 0.8);
+}
+.left-side-content span {
+  border: 5px solid rgb(255, 9, 234);
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 158px;
+  color: rgb(255, 255, 255);
+}
+
+/* -----right side content styles----- */
+.right-side-content {
+  border: 10px solid rgb(255, 217, 0);
+  width: 40%;
+  height: 600px;
+}
+.right-side-content img {
+  border: 5px solid rgb(8, 248, 196);
+  width: 100%;
+  height: 100%;
+}
+
+/* -----party section background image styles----- */
+.party-container {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url(../assets/images/party.png);
 }
