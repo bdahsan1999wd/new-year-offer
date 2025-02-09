@@ -279,6 +279,13 @@
   justify-content: center;
   align-items: center;
 }
+/* -----image circle border styles----- */
+.image-circle {
+  border-radius: 50%;
+  border: 8px solid #f00;
+  padding: 20px;
+  margin: 0 20px;
+}
 
 /* -----right side celebration styles----- */
 .right {
