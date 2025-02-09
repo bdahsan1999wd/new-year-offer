@@ -282,7 +282,7 @@
 /* -----image circle border styles----- */
 .image-circle {
   border-radius: 50%;
-  border: 8px solid #f00;
+  border: 8px solid rgb(255, 0, 0);
   padding: 20px;
   margin: 0 20px;
 }
@@ -394,4 +394,57 @@
   left: 50%;
   bottom: 30%;
   z-index: 1;
+}
+
+/* ----------Awesome gifts section styles---------- */
+.gifts-container {
+  border: 10px solid red;
+  width: 1320px;
+  height: 1163px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+/* -----gift container text styles----- */
+.gifts-container-text {
+  border: 5px solid blue;
+  margin-bottom: 48px;
+}
+
+.gifts-container-text h4 {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Inter", serif;
+  color: rgb(255, 0, 0);
+  margin-bottom: 16px;
+}
+.gifts-container-text h2 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+.gifts-container-text p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Inter", serif;
+  color: rgba(7, 2, 17, 0.6);
+}
+
+/* -----gifts items styles----- */
+.gifts-items {
+  border: 5px solid black;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+/* -----gift item----- */
+.item {
+  border: 5px solid rgb(2, 214, 241);
+  width: 424px;
+  height: 450px;
+}
+.item img {
+  width: 100%;
+  height: 100%;
 }
