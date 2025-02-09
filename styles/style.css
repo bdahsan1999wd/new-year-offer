@@ -13,12 +13,10 @@
 
 .body {
   font-family: "Merriweather", serif;
-  border: 5px solid red;
 }
 
 /* ----------Banner section styles---------- */
 .banner-container {
-  border: 10px solid rgb(255, 0, 221);
   max-width: 1320px;
   min-height: 600px;
   margin: 0 auto;
@@ -38,7 +36,6 @@
 }
 
 .banner-content p {
-  border: 2px solid rgb(0, 204, 255);
   font-size: 32px;
   font-weight: 400;
   color: rgb(255, 255, 255);
@@ -46,7 +43,6 @@
 }
 
 .banner-content h1 {
-  border: 2px solid rgb(0, 255, 21);
   font-size: 72px;
   font-weight: 900;
   color: rgb(255, 255, 255);
@@ -61,7 +57,6 @@
 
 /* ----------65% Discount section styles ---------- */
 .discount {
-  border: 10px solid red;
   width: 805px;
   height: 840px;
   margin: 0 auto;
@@ -71,7 +66,6 @@
 
 /* -----discount content styles----- */
 .discount-content {
-  border: 5px solid rgb(0, 4, 255);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -80,7 +74,6 @@
 }
 
 .discount-content h1 {
-  border: 5px solid rgb(12, 216, 199);
   font-size: 88px;
   font-weight: 700;
   color: rgb(255, 0, 0);
@@ -88,7 +81,6 @@
 }
 
 .discount-content p {
-  border: 5px solid rgb(216, 12, 199);
   font-size: 24px;
   font-weight: 500;
   color: rgb(255, 0, 0);
@@ -96,7 +88,6 @@
 }
 
 .discount-content h3 {
-  border: 5px solid rgb(216, 179, 12);
   font-size: 48px;
   font-weight: 700;
   color: rgb(7, 2, 17);
@@ -116,7 +107,6 @@
 
 /* ----------party section styles---------- */
 .party-container {
-  border: 10px solid red;
   max-width: 1320px;
   min-height: 600px;
   margin: 0 auto;
@@ -126,7 +116,6 @@
 
 /* -----left side content styles----- */
 .left-side-content {
-  border: 5px solid rgb(0, 247, 255);
   width: 60%;
   height: 600px;
   display: flex;
@@ -135,14 +124,12 @@
 }
 
 .left-side-content h1 {
-  border: 5px solid rgb(241, 108, 12);
   font-size: 64px;
   font-weight: 900;
   margin-left: 126px;
   color: rgb(255, 255, 255, 0.9);
 }
 .left-side-content p {
-  border: 5px solid rgb(66, 218, 6);
   font-size: 18px;
   font-weight: 400;
   margin-left: 126px;
@@ -151,7 +138,6 @@
   color: rgb(255, 255, 255, 0.8);
 }
 .left-side-content span {
-  border: 5px solid rgb(255, 9, 234);
   font-size: 20px;
   font-weight: 700;
   cursor: pointer;
@@ -161,12 +147,10 @@
 
 /* -----right side content styles----- */
 .right-side-content {
-  border: 10px solid rgb(255, 217, 0);
   width: 40%;
   height: 600px;
 }
 .right-side-content img {
-  border: 5px solid rgb(8, 248, 196);
   width: 100%;
   height: 100%;
 }
@@ -186,7 +170,6 @@
 
 /* ----------location section styles---------- */
 .location {
-  border: 10px solid rgb(60, 255, 0);
   width: 1320px;
   height: 482px;
   margin: 0 auto;
@@ -208,15 +191,12 @@
 }
 
 .location .first {
-  border: 3px solid red;
   margin-bottom: 20px;
 }
 .location .second {
-  border: 3px solid red;
   margin-bottom: 20px;
 }
 .location .third {
-  border: 3px solid red;
   margin-bottom: 48px;
 }
 
@@ -235,7 +215,6 @@
 
 /* ----------celebration section styles---------- */
 .celebration {
-  border: 10px solid red;
   width: 1320px;
   height: 463px;
   margin: 0 auto;
@@ -245,7 +224,6 @@
 
 /* -----left side celebration styles----- */
 .left {
-  border: 5px solid rgb(0, 17, 255);
   width: 35%;
   display: flex;
   justify-content: center;
@@ -273,7 +251,6 @@
 
 /* -----middle side celebration styles----- */
 .middle {
-  border: 5px solid rgb(9, 255, 0);
   width: 35%;
   display: flex;
   justify-content: center;
@@ -289,7 +266,6 @@
 
 /* -----right side celebration styles----- */
 .right {
-  border: 5px solid rgb(255, 0, 255);
   width: 30%;
   display: flex;
   flex-direction: column;
@@ -314,7 +290,6 @@
 
 /* -----------50% Holidays Sale section styles---------- */
 .holiday-container {
-  border: 10px solid rgb(0, 255, 21);
   width: 1320px;
   height: 986.07px;
   margin: 0 auto;
@@ -324,7 +299,6 @@
 
 /* -----50% holiday container text styles----- */
 .holiday-text-container {
-  border: 2px solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -356,7 +330,6 @@
 
 /* -----Bottom solid color styles----- */
 .solid-color {
-  border: 10px solid rgb(40, 2, 255);
   width: 1320px;
   height: 229px;
   background-color: red;
@@ -366,7 +339,6 @@
 
 /* -----gift box styles----- */
 .gift-box {
-  border: 10px solid rgb(210, 8, 250);
   width: 674.82px;
   height: 577.96px;
   margin-top: 64px;
@@ -377,17 +349,15 @@
 
 /* -----girl image styles----- */
 .girl-container {
-  border: 5px solid orange;
   width: 429px;
   height: 433px;
   position: relative;
-  left: 27.7%;
-  bottom: 3.5%;
+  left: 29.1%;
+  bottom: 1.4%;
 }
 
 /* -----50% discount image styles ----- */
 .second-discount {
-  border: 5px solid rgb(0, 255, 221);
   width: 305.69px;
   height: 305.69px;
   position: absolute;
@@ -398,7 +368,6 @@
 
 /* ----------Awesome gifts section styles---------- */
 .gifts-container {
-  border: 10px solid red;
   width: 1320px;
   height: 1163px;
   margin: 0 auto;
@@ -407,7 +376,6 @@
 
 /* -----gift container text styles----- */
 .gifts-container-text {
-  border: 5px solid blue;
   margin-bottom: 48px;
 }
 
@@ -432,7 +400,6 @@
 
 /* -----gifts items styles----- */
 .gifts-items {
-  border: 5px solid black;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
@@ -440,7 +407,6 @@
 
 /* -----gift item----- */
 .item {
-  border: 5px solid rgb(2, 214, 241);
   width: 424px;
   height: 450px;
 }
@@ -451,7 +417,6 @@
 
 /* ----------subscribe container styles---------- */
 .subscribe-container {
-  border: 10px solid red;
   width: 1320px;
   height: 616px;
   margin: 0 auto;
@@ -464,14 +429,12 @@
 }
 
 .subscribe-container h2 {
-  border: 5px solid rgb(155, 104, 9);
   font-weight: 900;
   font-size: 48px;
   margin-top: 40px;
   margin-bottom: 22px;
 }
 .subscribe-container p {
-  border: 5px solid orange;
   font-size: 20px;
   font-weight: 400;
   font-family: "Inter", serif;
@@ -482,7 +445,6 @@
 
 /* -----input form styles----- */
 .subscribe-form {
-  border: 5px solid blue;
   position: relative;
 }
 
@@ -517,7 +479,6 @@ button[type="submit"] {
 
 /* ----------Footer section styles---------- */
 footer {
-  border: 10px solid red;
   height: 609px;
   background-color: rgb(7, 2, 17);
   display: flex;
@@ -532,14 +493,12 @@ footer {
   justify-content: space-around;
 }
 .footer-first-content p {
-  border: 2px solid red;
   font-size: 24px;
   font-weight: 500;
   font-family: "Inter", serif;
 }
 
 .icon-group li {
-  border: 2px solid red;
   list-style: none;
   display: flex;
 }
@@ -554,7 +513,6 @@ footer {
 .hr-line {
   display: flex;
   justify-content: space-around;
-  /* align-items: center; */
   height: 5px;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -572,7 +530,6 @@ footer {
   align-items: center;
 }
 .footer-second-container ul li {
-  border: 2px solid red;
   margin-left: 24px;
   margin-top: 48px;
   margin-bottom: 48px;
@@ -586,8 +543,4 @@ footer {
   font-size: 24px;
   font-weight: 500;
   font-family: "Inter", serif;
-}
-
-.footer-third-container p {
-  border: 2px solid red;
 }
