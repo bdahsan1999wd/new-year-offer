@@ -243,11 +243,36 @@
 
         <!----- footer third container ----->
         <div class="footer-third-container">
-            <p>Copyright &copy; 2025 - All Rights Reserved By Ahsan Habib.</p>
+            <p>Copyright &copy; <span id="year-range"></span> - All Rights Reserved By Ahsan Habib.</p>
             <p>Unsubscribe</p>
         </div>
 
     </footer>
+
+    <!----- JavaScript Added (Create to Current) Dynamic Year Update ----->
+    <script>
+
+        // -----Website launch year-----
+        const createdYear = 2025;
+
+        // -----Get the current year from the system-----
+        const currentYear = new Date().getFullYear();
+
+        // -----Initialize the year range string-----
+        let yearRange = "";
+
+        // -----If the website was created this year, show only that year Otherwise, show a range like "2025–2026"-----
+        if (createdYear === currentYear) {
+            yearRange = `${createdYear}`;
+        }
+        else {
+            yearRange = `${createdYear}-${currentYear}`;
+        }
+
+        // -----Update the year range into the footer span with ID "year-range"-----
+        document.getElementById("year-range").textContent = yearRange;
+
+    </script>
 
 </body>
 
